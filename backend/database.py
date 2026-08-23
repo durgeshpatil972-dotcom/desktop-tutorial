@@ -3,7 +3,12 @@ from sqlalchemy import create_engine, Column, Integer, String, Text, DateTime
 from sqlalchemy.orm import declarative_base, sessionmaker
 from datetime import datetime
 
-DB_PATH = os.path.join(os.path.dirname(__file__), "kisansagar.db")
+# Serverless environment handling (Vercel / AWS Lambda / Read-Only Filesystems)
+if os.getenv("VERCEL"):
+    DB_PATH = "/tmp/kisansagar.db"
+else:
+    DB_PATH = os.path.join(os.path.dirname(__file__), "kisansagar.db")
+
 SQLALCHEMY_DATABASE_URL = f"sqlite:///{DB_PATH}"
 
 # Structured for easy migration to PostgreSQL in production:
