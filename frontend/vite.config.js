@@ -7,4 +7,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: './', // Ensures relative path loading on GitHub Pages and subfolder deployments
 })
