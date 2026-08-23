@@ -1,0 +1,54 @@
+{
+  "schemes": [
+    {
+      "id": "pm_kisan",
+      "name": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+      "target_user": "farmer",
+      "summary": "Income support scheme providing ₹6,000 per year to eligible farmer families across India in three equal installments of ₹2,000.",
+      "eligibility": "Small and marginal farmers owning cultivable land up to 2 hectares. Institutional landholders and high-income taxpayers excluded.",
+      "benefits": "₹6,000 direct bank transfer per year.",
+      "application_process": "Apply via pmkisan.gov.in or nearest Common Service Centre (CSC) with Aadhaar card, land documents, and bank account details.",
+      "documents_required": ["Aadhaar Card", "Land Khatauni/7/12 Extract", "Bank Passbook", "Mobile Number linked to Aadhaar"]
+    },
+    {
+      "id": "pmfby",
+      "name": "PMFBY (Pradhan Mantri Fasal Bima Yojana)",
+      "target_user": "farmer",
+      "summary": "Comprehensive crop insurance scheme protecting farmers against crop loss due to non-preventable natural risks like drought, flood, pests, and storms.",
+      "eligibility": "All farmers including sharecroppers and tenant farmers growing notified crops in notified areas.",
+      "benefits": "Max premium payable by farmer: 2% for Kharif crops, 1.5% for Rabi crops, 5% for annual commercial/horticultural crops. Balance subsidized by Govt.",
+      "application_process": "Enroll through bank branch, insurance agent, pmfby.gov.in, or CSC before the cutoff date for notified crops.",
+      "documents_required": ["Aadhaar Card", "Sowing Certificate", "Land Records / Rent Agreement", "Bank Account Details"]
+    },
+    {
+      "id": "kcc",
+      "name": "Kisan Credit Card (KCC)",
+      "target_user": "both",
+      "summary": "Provides timely short-term credit to farmers and fishermen for crop production, post-harvest expenses, and maintenance of fishing equipment/boats.",
+      "eligibility": "Farmers, sharecroppers, tenant farmers, self-help groups, individual fishermen, boat owners, and fish farmers.",
+      "benefits": "Concessional interest rate at 7% per annum. 3% prompt repayment incentive brings effective interest to 4%. Credit limit up to ₹3 Lakhs without collateral.",
+      "application_process": "Fill KCC form at any commercial bank, RRB, or Cooperative Bank branch with KYC and land/boat ownership proof.",
+      "documents_required": ["Aadhaar Card", "Voter ID / PAN Card", "Land Documents / Boat License", "Passport Photo"]
+    },
+    {
+      "id": "pmmsy",
+      "name": "PMMSY (Pradhan Mantri Matsya Sampada Yojana)",
+      "target_user": "fisherman",
+      "summary": "Flagship scheme for sustainable development of fisheries sector, safety of fishermen at sea, boat modernization, and fish marketing infrastructure.",
+      "eligibility": "Fishermen, fish farmers, fish workers, fish vendors, self-help groups, fisheries cooperatives.",
+      "benefits": "Financial assistance up to 40% (General Category) to 60% (SC/ST/Women) for buying modern fishing boats, GPS/communication safety equipment, fish seeds, and ice boxes.",
+      "application_process": "Apply through State Fisheries Department portal or District Fisheries Officer (DFO).",
+      "documents_required": ["Aadhaar Card", "Fisherman Identity Card / Boat Registration Certificate", "Bank Passbook", "Caste Certificate (if applicable)"]
+    },
+    {
+      "id": "soil_health_card",
+      "name": "Soil Health Card Scheme",
+      "target_user": "farmer",
+      "summary": "Provides crop-wise recommendations of nutrients and fertilizers required for individual farm soils to boost productivity sustainably.",
+      "eligibility": "All agricultural landowners.",
+      "benefits": "Free soil test report issued every 2 years detailing 12 parameters (N, P, K, micro-nutrients, pH). Prevents over-fertilization.",
+      "application_process": "Soil samples collected by local Agriculture Department officials; card issued through village panchayat or soilhealth.dac.gov.in.",
+      "documents_required": ["Aadhaar Card", "Survey Number of Land"]
+    }
+  ]
+}
